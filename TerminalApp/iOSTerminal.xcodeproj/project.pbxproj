@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 52;
+	objectVersion = 54;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -328,7 +328,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = PJQC57N853;
+				DEVELOPMENT_TEAM = 4XCS62YMPJ;
 				INFOPLIST_FILE = "$(PRODUCT_NAME)/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -347,7 +347,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = PJQC57N853;
+				DEVELOPMENT_TEAM = 4XCS62YMPJ;
 				INFOPLIST_FILE = "$(PRODUCT_NAME)/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -387,7 +387,7 @@
 /* Begin XCRemoteSwiftPackageReference section */
 		498667032575F1FD006BFFA0 /* XCRemoteSwiftPackageReference "SwiftSH" */ = {
 			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/migueldeicaza/SwiftSH.binaries";
+			repositoryURL = "https://github.com/TheTekton337/SwiftSH.binaries";
 			requirement = {
 				branch = master;
 				kind = branch;
