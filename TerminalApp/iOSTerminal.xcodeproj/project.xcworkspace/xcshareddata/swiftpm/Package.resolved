@@ -1,16 +1,14 @@
 {
-  "object": {
-    "pins": [
-      {
-        "package": "SwiftSH.binaries",
-        "repositoryURL": "https://github.com/migueldeicaza/SwiftSH.binaries",
-        "state": {
-          "branch": "master",
-          "revision": "3ce9fc6d6f26f43952a78d9431985a59008d14d2",
-          "version": null
-        }
+  "pins" : [
+    {
+      "identity" : "swiftsh.binaries",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/TheTekton337/SwiftSH.binaries",
+      "state" : {
+        "branch" : "master",
+        "revision" : "3ce9fc6d6f26f43952a78d9431985a59008d14d2"
       }
-    ]
-  },
-  "version": 1
+    }
+  ],
+  "version" : 2
 }
