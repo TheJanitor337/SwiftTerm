@@ -1443,6 +1443,17 @@ extension TerminalViewDelegate {
     
     public func iTermContent (source: TerminalView, content: ArraySlice<UInt8>) {
     }
+    
+    public func requestOpenLink (source: TerminalView, link: String, params: [String:String])
+    {
+        if let fixedup = link.addingPercentEncoding(withAllowedCharacters: .urlQueryAllowed) {
+            if let url = NSURLComponents(string: fixedup) {
+                if let nested = url.url {
+                    print("requestOpenLink url: \(nested)")
+                }
+            }
+        }
+    }
 }
 
 #endif
