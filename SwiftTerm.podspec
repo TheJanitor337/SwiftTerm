@@ -13,6 +13,7 @@ Pod::Spec.new do |s|
   s.swift_version    = '5.0'
   s.source_files     = 'Sources/SwiftTerm/**/*.{swift,h,m}'
   s.exclude_files    = 'Sources/SwiftTerm/**/*.plist'
+  s.static_framework = true
   s.ios.deployment_target = '13.0'
   s.osx.deployment_target = '10.15'
   s.tvos.deployment_target = '13.0'
